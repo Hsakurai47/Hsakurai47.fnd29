@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 32px;
+    color: aqua;
+
+}
+h3{
+    font-size: 28px;
+    color:white;
+    font-weight: bold;
+    background-color: darkgreen;
+}
+h4{
+    font-size: 26px;
+    color:brown;
+    font-style: italic;
+}
+h5{
+    font-size: 20px;
+    color:coral;
+    text-decoration: underline;
+}
+
+button{
+    background: #444;
+    color: #fff;
+    font-size: 16px;
+    border:none;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor:pointer;
+    padding:8px 16px;
+}
