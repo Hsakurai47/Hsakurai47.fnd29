@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>seppen resister</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="test.css">
+    <script type="text/javascript" src="test2.js" defer></script>
+
+  </head>
+  
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <p>
+          <label for="seppenno">設変No</label>
+          <input type="text" id="seppenno" name="seppenno" />
+        </p>
+        <p>
+          <label for="name">登録者</label>
+          <input type="text" id="name" name="name" />
+        </p>
+        <p>
+          <label for="date">登録日</label>
+          <input type="date" id="date" name="date" />
+        </p>
+        <p>
+          <label for="comment">変更内容</label>
+          <input type="text" id="comment" name="comment" />
+        </p>
+        <!-- <p>
+          <label for="commet">設変ファイル保存先</label>
+          <input type="url" id="savefile" name="savefile" />
+        </p> -->
+        <p>
+          <button class="resistBtn">登録</button>
+        </p>
+      </form>
+      </div>
+      <div class="results">
+        <button class="editBtn">変更を保存</button>
+        <button class="exportBtn"><a href="" download="">CSVに出力</a></button>
+        <table>
+          <thred>
+            <tr>
+              <th>設変No</th>
+              <th>登録者</th>
+              <th>登録日</th>
+              <th>変更内容</th>
+              <!-- <th>ファイルの保存先</th> -->
+            </tr>
+          </thred>
+          <tbody class="tbody">
+              <!-- <tr>
+                <td>852WH0001</td>
+                <td>櫻井</td>
+                <td>2024/08/25</td>
+                <td>RC2403D</td>
+              </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+  </body>
+  
+  </html>
